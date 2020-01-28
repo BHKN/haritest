@@ -7,8 +7,7 @@ app = Flask(__name__)
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["details"]
 
-mycol = mydb["driverdetails"]
-mycol1=mydb["vehicledetails"]
+
 
 # creating GET and POST methods for driver details
 
